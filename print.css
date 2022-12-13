@@ -1,0 +1,27 @@
+body{
+	color: blue;
+	-webkit-print-color-adjust: exact;
+}
+
+.noprint{
+	display: none;
+}
+
+.pagebreak{
+	page-break-after: always;
+}
+
+.header{
+	position: static;
+
+	-webkit-print-color-adjust: exact;
+}
+
+.content{
+	-webkit-print-color-adjust: exact;
+}
+
+@page{
+	size: legal;
+	margin: 0;
+}
